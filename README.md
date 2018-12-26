@@ -22,7 +22,7 @@ To install this,
 2. Unpack it to your working directory.
 3. Copy **ONLY** the contents of folder `bhoomi` to `/boot/grub/themes/bhoomi`
     ```console
-    sudo mkdir -p /boot/grub/themes/bhoomi
+    sudo mkdir -p /boot/grub/themes/
     sudo cp ./bhoomi-grub-theme/bhoomi /boot/grub/themes/
     ```
 4. Open default grub config as `root`
@@ -72,7 +72,7 @@ Removed install scripts, changed fonts to _Ubuntu Regular_ and changed backgroun
 
 ## Why Bhoomi?
 
-[ಭೂಮಿ](https://kn.wikipedia.org/wiki/%E0%B2%AD%E0%B3%82%E0%B2%AE%E0%B2%BF) in [Kannada/ಕನ್ನಡ](https://en.wikipedia.org/wiki/Kannada) means "Earth", [the pale blue dot ](https://en.wikipedia.org/wiki/Pale_Blue_Dot) we live on. :earth_americas: :earth_africa: :earth_asia: :point_down: :point_down:  :point_down:
+[ಭೂಮಿ/Bhoomi](https://kn.wikipedia.org/wiki/%E0%B2%AD%E0%B3%82%E0%B2%AE%E0%B2%BF) in [Kannada/ಕನ್ನಡ](https://en.wikipedia.org/wiki/Kannada) means "Earth", you know, [the pale blue dot ](https://en.wikipedia.org/wiki/Pale_Blue_Dot) we live on. :earth_americas: :earth_africa: :earth_asia: :point_down: :point_down:  :point_down:
 
 [![Pale-Blue-Dot](./screenshots/pale-blue-dot.jpg)](https://en.wikipedia.org/wiki/Family_Portrait_(Voyager))
 
