@@ -56,14 +56,14 @@ sudo grub2-mkconfig -o /boot/efi/EFI/<distro>/grub.cfg
 ## Problems?
 
 1. I still cannot see `Found theme: /boot/grub2/themes/bhoomi/theme.txt` while genarating grub config.
-    - You might have something like `GRUB_TERMINAL_OUTPUT="console"` in `/etc/default/grub`. Remove it or comment that line and theme should be recognized.
     - This is usually the case with Fedora and CentOS.
+    - You might have something like `GRUB_TERMINAL_OUTPUT="console"` in `/etc/default/grub`. Remove it or comment that line and theme should be recognized.
 2. Other Problems?
     - [Open an issue.](https://github.com/tprasadtp/bhoomi-grub-theme/issues/new)
 
 ## Changes from the original
 
-Removed Install scripts, Changed fonts to _Ubuntu Regular_ and changed background.
+Removed install scripts, changed fonts to _Ubuntu Regular_ and changed background.
 
 ## License
 
@@ -72,9 +72,8 @@ Removed Install scripts, Changed fonts to _Ubuntu Regular_ and changed backgroun
 
 ## Why Bhoomi?
 
-[ಭೂಮಿ](https://kn.wikipedia.org/wiki/%E0%B2%AD%E0%B3%82%E0%B2%AE%E0%B2%BF) in [Kannada/ಕನ್ನಡ](https://en.wikipedia.org/wiki/Kannada) means "Earth", you know [the pale blue dot ](https://en.wikipedia.org/wiki/Pale_Blue_Dot) we live on. :earth_americas: :earth_africa: :earth_asia: :point_down:
+[ಭೂಮಿ](https://kn.wikipedia.org/wiki/%E0%B2%AD%E0%B3%82%E0%B2%AE%E0%B2%BF) in [Kannada/ಕನ್ನಡ](https://en.wikipedia.org/wiki/Kannada) means "Earth", [the pale blue dot ](https://en.wikipedia.org/wiki/Pale_Blue_Dot) we live on. :earth_americas: :earth_africa: :earth_asia: :point_down: :point_down:  :point_down:
 
 [![Pale-Blue-Dot](./screenshots/pale-blue-dot.jpg)](https://en.wikipedia.org/wiki/Family_Portrait_(Voyager))
-
 
 [![Analytics](https://ga-beacon.prasadt.com/UA-101760811-3/github/prasadt?flat&useReferer)](https://prasadt.com/google-analytics-beacon)
