@@ -18,14 +18,14 @@ Background is optimized for wider aspect ratio and looks a little distorted in t
 To install this,
 
 0. Make backups of `/etc/default/grub` and `/boot/<grub/grub2>/grub.cfg`.
-1. Download the [Zip file](https://github.com/tprasadtp/bhoomi-grub-theme/archive/master.zip).
+1. Download the [zip file](https://github.com/tprasadtp/bhoomi-grub-theme/archive/master.zip).
 2. Unpack it to your working directory.
 3. Copy **ONLY** the contents of folder `bhoomi` to `/boot/grub/themes/bhoomi`
     ```console
     sudo mkdir -p /boot/grub/themes/bhoomi
     sudo cp ./bhoomi-grub-theme/bhoomi /boot/grub/themes/
     ```
-4. Open default Grub config as `root`
+4. Open default grub config as `root`
     ```console
     sudo nano /etc/default/grub
     ```
@@ -35,10 +35,10 @@ To install this,
     GRUB_THEME="/boot/grub/themes/bhoomi/theme.txt"
     GRUB_BACKGROUND="/boot/grub/themes/bhoomi/background.jpg"
     ```
-6. Re-generate Grub config. `sudo update-grub`. The output should show, theme and background are found, if not check your config and files.
+6. Re-generate grub config. `sudo update-grub`. The output should show, theme and background are found, if not check your config and files.
 7. Reboot!
 
-## Additional notes for Fedora and OpenSuse [Aslo applies to RedHat, Suse, CentOS, Scientific Linux]
+## Additional notes for Fedora and OpenSUSE [Aslo applies to RedHat, SLES, CentOS, Scientific Linux]
 
 The folder `/boot/grub2` is used in these cases to store grub configurations. replace `grub` with `grub2` in the paths mentioned above.
 Also, `update-grub` is not available on these systems(by default). You can use `grub2-mkconfig` to update the Grub config.
