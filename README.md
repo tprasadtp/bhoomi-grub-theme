@@ -1,7 +1,7 @@
 # Bhoomi Grub2 Theme
 
 This theme is based on [Vimix](https://github.com/vinceliuice/grub2-themes/tree/master/grub-theme-vimix) Grub2 theme.
-![https://github.com/tprasadtp/bhoomi-grub-theme](https://img.shields.io/github/license/:user/:repo.svg?style=for-the-badge)
+![https://github.com/tprasadtp/bhoomi-grub-theme](https://img.shields.io/github/license/tprasadtp/bhoomi-grub-theme.svg?style=for-the-badge)
 
 ## Installation
 
