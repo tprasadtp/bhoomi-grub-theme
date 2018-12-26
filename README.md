@@ -28,7 +28,6 @@ To install this,
 4. Open default Grub config as `root`
     ```console
     sudo nano /etc/default/grub
-and [this image](https://github.com/tprasadtp/bhoomi-grub-theme/blob/master/screenshots/pale-blue-dot.jpg), which is in public domain
     ```
 5. Change (or add if not already present) the following lines & save the file.
     ```console
@@ -42,21 +41,21 @@ and [this image](https://github.com/tprasadtp/bhoomi-grub-theme/blob/master/scre
 ## Additional notes for Fedora and OpenSuse [Aslo applies to RedHat, Suse, CentOS, Scientific Linux]
 
 The folder `/boot/grub2` is used in these cases to store grub configurations. replace `grub` with `grub2` in the paths mentioned above.
-Also, `update-grub` is not available on these systems(by default) You can use `grub2-mkconfig` to update the Grub cofig.
+Also, `update-grub` is not available on these systems(by default). You can use `grub2-mkconfig` to update the Grub config.
 
 If using BIOS,
 ```console
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-UEFI,
+for UEFI,
 ```console
 sudo grub2-mkconfig -o /boot/efi/EFI/<distro>/grub.cfg
 ```
 
 ## Problems?
 
-1. I still cannot see  `Found theme: /boot/grub2/themes/bhoomi/theme.txt` while genarating grub config.
+1. I still cannot see `Found theme: /boot/grub2/themes/bhoomi/theme.txt` while genarating grub config.
     - You might have something like `GRUB_TERMINAL_OUTPUT="console"` in `/etc/default/grub`. Remove it or comment that line and theme should be recognized.
     - This is usually the case with Fedora and CentOS.
 2. Other Problems?
@@ -64,7 +63,7 @@ sudo grub2-mkconfig -o /boot/efi/EFI/<distro>/grub.cfg
 
 ## Changes from the original
 
-Removed Install scripts, Changed fonts to Ubuntu Regular and changed background.
+Removed Install scripts, Changed fonts to _Ubuntu Regular_ and changed background.
 
 ## License
 
